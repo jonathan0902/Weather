@@ -1,5 +1,5 @@
 {
-    "name" : "anax/weather",
+    "name" : "atomcz/weather",
     "description": "A Weather application for anax.",
     "license": "MIT",
     "minimum-stability": "beta",
