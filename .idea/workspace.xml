@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48e45c92-106b-4cd5-b052-a87d7eeadc0d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../redovisa/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../redovisa/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../redovisa/config/navbar/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/../redovisa/config/navbar/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../redovisa/config/navbar/plain.php" beforeDir="false" afterPath="$PROJECT_DIR$/../redovisa/config/navbar/plain.php" afterDir="false" />
@@ -86,7 +88,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -96,6 +98,9 @@
         <option value="$PROJECT_DIR$/view/ip/weather.php" />
       </list>
     </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -222,7 +227,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../matmod/material/kmom04" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -250,12 +255,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544099785400</updated>
-      <workItem from="1544099786762" duration="1179000" />
+      <workItem from="1544099786762" duration="2185000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1179000" />
+    <option name="totallyTimeSpent" value="2185000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
