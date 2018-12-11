@@ -296,7 +296,7 @@ check-tools-php:
 .PHONY: phpunit
 phpunit: prepare
 	@$(call HELPTEXT,$@)
-	[ ! -d "test" ] || $(PHPUNIT) --configuration .phpunit.xml $(options)
+	[ ! -d "test" ] || php $(PHPUNIT) --configuration .phpunit.xml $(options)
 
 
 
