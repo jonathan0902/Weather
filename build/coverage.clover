@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1544100475">
-  <project timestamp="1544100475">
+<coverage generated="1544473100">
+  <project timestamp="1544473100">
     <package name="Anax\Controller">
       <file name="C:\cygwin64\home\jonat\dbwebb-kurser\ramverk1\me\module\src\Controller\IPController.php">
         <class name="Anax\Controller\IPController" namespace="Anax\Controller">
