@@ -1,5 +1,0 @@
-/.bin
-/build
-/vendor
-*.swp
-composer.lock
