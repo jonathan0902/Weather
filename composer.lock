@@ -406,20 +406,20 @@
         },
         {
             "name": "anax/database",
-            "version": "v2.0.1",
+            "version": "v2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/canax/database.git",
-                "reference": "a0d072387f3f41d51e786c3594a1d13339ff2e09"
+                "reference": "ea78a5b3eee8998be0e5a401247b9455ff240fb4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/canax/database/zipball/a0d072387f3f41d51e786c3594a1d13339ff2e09",
-                "reference": "a0d072387f3f41d51e786c3594a1d13339ff2e09",
+                "url": "https://api.github.com/repos/canax/database/zipball/ea78a5b3eee8998be0e5a401247b9455ff240fb4",
+                "reference": "ea78a5b3eee8998be0e5a401247b9455ff240fb4",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2"
+                "php": ">=7.2"
             },
             "require-dev": {
                 "phpunit/phpunit": "^7"
@@ -443,12 +443,11 @@
             "description": "Anax Database module, to work with databases.",
             "homepage": "https://dbwebb.se/anax",
             "keywords": [
-                "boilerplate",
-                "education",
-                "framework",
-                "mvc"
+                "Database Access Layer",
+                "database",
+                "dba"
             ],
-            "time": "2018-11-02T13:06:58+00:00"
+            "time": "2018-12-10T17:33:21+00:00"
         },
         {
             "name": "anax/di",
@@ -1327,7 +1326,7 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v3.4.19",
+            "version": "v3.4.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
@@ -2059,16 +2058,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "7.4.5",
+            "version": "7.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "61d34e8dd6eb3555900f0f2a2fa9e7e570730102"
+                "reference": "520723129e2b3fc1dc4c0953e43c9d40e1ecb352"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/61d34e8dd6eb3555900f0f2a2fa9e7e570730102",
-                "reference": "61d34e8dd6eb3555900f0f2a2fa9e7e570730102",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/520723129e2b3fc1dc4c0953e43c9d40e1ecb352",
+                "reference": "520723129e2b3fc1dc4c0953e43c9d40e1ecb352",
                 "shasum": ""
             },
             "require": {
@@ -2113,7 +2112,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "7.4-dev"
+                    "dev-master": "7.5-dev"
                 }
             },
             "autoload": {
@@ -2139,7 +2138,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2018-12-03T05:01:24+00:00"
+            "time": "2018-12-07T07:08:12+00:00"
         },
         {
             "name": "sebastian/code-unit-reverse-lookup",
