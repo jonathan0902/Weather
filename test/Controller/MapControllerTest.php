@@ -40,7 +40,7 @@ class MapControllerTest extends TestCase
      */
     public function testWeatherAction()
     {
-        $controller = new IPController();
+        $controller = new WeatherController();
         $controller->setDI($this->di);
         $this->di->get("request")->setGet('location', "212.212.100.110");
         $res = $controller->weatherActionGet();
@@ -49,7 +49,7 @@ class MapControllerTest extends TestCase
 
     public function testWeatherFailedAction()
     {
-        $controller = new IPController();
+        $controller = new WeatherController();
         $controller->setDI($this->di);
         $this->di->get("request")->setGet('location', "212.212.100.1103124124124");
         $res = $controller->weatherActionGet();
@@ -58,7 +58,7 @@ class MapControllerTest extends TestCase
 
     public function testWeatherRestApiAction()
     {
-        $controller = new IPController();
+        $controller = new WeatherController();
         $controller->setDI($this->di);
         $res = $controller->weatherRestApiActionGet("161.185.160.93");
         $this->assertNotNull($res);
@@ -66,9 +66,9 @@ class MapControllerTest extends TestCase
 
     public function testWeatherRestApiFailedAction()
     {
-        $controller = new IPController();
+        $controller = new WeatherController();
         $controller->setDI($this->di);
-        $res = $controller->weatherRestApiActionGet("161.185.160.93321123123");
+        $res = $controller->weatherRestApiActionGet("4131212312323");
         $this->assertNotNull($res);
     }
 }
